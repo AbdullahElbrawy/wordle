@@ -1,0 +1,410 @@
+{
+    "properties": {
+        "producer": "FormExtract",
+        "schemaVersion": "1.0",
+        "coordinateSystem": "originTop"
+    },
+    "runInfo": {
+        "warnings": [
+            "Apryse AI trial mode."
+        ],
+        "producerPlatform": "Linux",
+        "producerVersion": "2.1.2-d7dc07a"
+    },
+    "pages": [
+        {
+            "properties": {
+                "pageNumber": 1
+            },
+            "formElements": [
+                {
+                    "type": "formTextField",
+                    "confidence": 0.994,
+                    "rect": [
+                        231.177,
+                        95.906,
+                        568.654,
+                        122.718
+                    ]
+                },
+                {
+                    "type": "formTextField",
+                    "confidence": 0.998,
+                    "rect": [
+                        231.177,
+                        122.718,
+                        569.686,
+                        150.562
+                    ]
+                },
+                {
+                    "type": "formTextField",
+                    "confidence": 0.998,
+                    "rect": [
+                        232.209,
+                        149.531,
+                        568.654,
+                        177.375
+                    ]
+                },
+                {
+                    "type": "formTextField",
+                    "confidence": 0.998,
+                    "rect": [
+                        232.209,
+                        177.375,
+                        568.654,
+                        204.187
+                    ]
+                },
+                {
+                    "type": "formTextField",
+                    "confidence": 0.997,
+                    "rect": [
+                        234.273,
+                        204.187,
+                        567.622,
+                        232.031
+                    ]
+                },
+                {
+                    "type": "formTextField",
+                    "confidence": 0.998,
+                    "rect": [
+                        235.305,
+                        232.031,
+                        566.59,
+                        259.875
+                    ]
+                },
+                {
+                    "type": "formTextField",
+                    "confidence": 0.997,
+                    "rect": [
+                        235.305,
+                        258.843,
+                        566.59,
+                        286.687
+                    ]
+                },
+                {
+                    "type": "formTextField",
+                    "confidence": 0.651,
+                    "rect": [
+                        238.401,
+                        285.656,
+                        568.654,
+                        310.406
+                    ]
+                },
+                {
+                    "type": "formTextField",
+                    "confidence": 0.994,
+                    "rect": [
+                        231.177,
+                        310.406,
+                        570.718,
+                        337.218
+                    ]
+                },
+                {
+                    "type": "formTextField",
+                    "confidence": 0.996,
+                    "rect": [
+                        228.08,
+                        337.218,
+                        570.718,
+                        365.062
+                    ]
+                },
+                {
+                    "type": "formTextField",
+                    "confidence": 0.997,
+                    "rect": [
+                        226.016,
+                        365.062,
+                        571.75,
+                        391.875
+                    ]
+                },
+                {
+                    "type": "formRadioButton",
+                    "confidence": 0.969,
+                    "rect": [
+                        229.112,
+                        399.093,
+                        241.497,
+                        411.468
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.979,
+                    "rect": [
+                        300.323,
+                        400.125,
+                        311.676,
+                        411.468
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.997,
+                    "rect": [
+                        229.112,
+                        445.5,
+                        242.529,
+                        456.843
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.937,
+                    "rect": [
+                        265.234,
+                        446.531,
+                        278.65,
+                        456.843
+                    ]
+                },
+                {
+                    "type": "formTextField",
+                    "confidence": 0.797,
+                    "rect": [
+                        239.433,
+                        434.156,
+                        561.429,
+                        490.875
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.999,
+                    "rect": [
+                        229.112,
+                        491.906,
+                        241.497,
+                        503.249
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.999,
+                    "rect": [
+                        400.431,
+                        502.218,
+                        414.88,
+                        513.562
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.997,
+                    "rect": [
+                        229.112,
+                        506.343,
+                        241.497,
+                        517.687
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.999,
+                    "rect": [
+                        400.431,
+                        516.656,
+                        413.848,
+                        527.999
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.999,
+                    "rect": [
+                        229.112,
+                        520.781,
+                        241.497,
+                        532.125
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.998,
+                    "rect": [
+                        400.431,
+                        531.093,
+                        413.848,
+                        542.437
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.999,
+                    "rect": [
+                        229.112,
+                        535.218,
+                        241.497,
+                        545.531
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.999,
+                    "rect": [
+                        400.431,
+                        545.531,
+                        414.88,
+                        556.875
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.999,
+                    "rect": [
+                        229.112,
+                        549.656,
+                        241.497,
+                        559.968
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.999,
+                    "rect": [
+                        400.431,
+                        559.968,
+                        413.848,
+                        571.312
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.998,
+                    "rect": [
+                        229.112,
+                        564.093,
+                        241.497,
+                        575.437
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.999,
+                    "rect": [
+                        400.431,
+                        574.406,
+                        414.88,
+                        585.75
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.998,
+                    "rect": [
+                        229.112,
+                        578.531,
+                        241.497,
+                        589.875
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.999,
+                    "rect": [
+                        400.431,
+                        588.843,
+                        414.88,
+                        600.187
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.999,
+                    "rect": [
+                        229.112,
+                        592.968,
+                        241.497,
+                        603.281
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.999,
+                    "rect": [
+                        400.431,
+                        603.281,
+                        414.88,
+                        614.625
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.999,
+                    "rect": [
+                        229.112,
+                        607.406,
+                        242.529,
+                        618.75
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.999,
+                    "rect": [
+                        400.431,
+                        618.75,
+                        413.848,
+                        629.062
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.995,
+                    "rect": [
+                        229.112,
+                        621.843,
+                        242.529,
+                        633.187
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.999,
+                    "rect": [
+                        400.431,
+                        632.156,
+                        413.848,
+                        642.468
+                    ]
+                },
+                {
+                    "type": "formCheckBox",
+                    "confidence": 0.999,
+                    "rect": [
+                        229.112,
+                        636.281,
+                        241.497,
+                        646.593
+                    ]
+                }
+            ]
+        },
+        {
+            "properties": {
+                "pageNumber": 2
+            },
+            "formElements": [
+                {
+                    "type": "formTextField",
+                    "confidence": 0.657,
+                    "rect": [
+                        15.48,
+                        75.281,
+                        546.981,
+                        497.062
+                    ]
+                }
+            ]
+        }
+    ]
+}

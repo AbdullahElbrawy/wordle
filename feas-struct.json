@@ -1,0 +1,2258 @@
+{
+    "properties": {
+        "producer": "StructuredOutput",
+        "coordinateSystem": "originTop",
+        "schemaVersion": "1.0"
+    },
+    "pages": [
+        {
+            "properties": {
+                "pageNumber": 1,
+                "rotation": 0
+            },
+            "elements": [
+                {
+                    "type": "table",
+                    "rect": [
+                        48,
+                        72,
+                        570,
+                        651.5
+                    ],
+                    "trs": [
+                        {
+                            "type": "tr",
+                            "tds": [
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        48,
+                                        72,
+                                        568,
+                                        94.95
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 3,
+                                    "rowStart": 0,
+                                    "colStart": 0,
+                                    "contents": [
+                                        {
+                                            "type": "paragraph",
+                                            "rect": [
+                                                52.5,
+                                                79.56,
+                                                226.17,
+                                                90.56
+                                            ],
+                                            "textStyle": {
+                                                "italic": false,
+                                                "underline": false,
+                                                "pointSize": 11,
+                                                "fontFace": "Calibri",
+                                                "parentStyle": "Table Paragraph"
+                                            },
+                                            "contents": [
+                                                {
+                                                    "type": "span",
+                                                    "text": "INVESTIGATIONAL SITE INFORMATION",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 700,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "rect": [
+                                48,
+                                72,
+                                570,
+                                94.95
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "tds": [
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        48,
+                                        94.95,
+                                        230.5,
+                                        123.05
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 2,
+                                    "rowStart": 1,
+                                    "colStart": 0,
+                                    "contents": [
+                                        {
+                                            "type": "paragraph",
+                                            "rect": [
+                                                52.5,
+                                                105.18,
+                                                205.43,
+                                                116.18
+                                            ],
+                                            "textStyle": {
+                                                "italic": false,
+                                                "underline": false,
+                                                "pointSize": 11,
+                                                "fontFace": "Calibri",
+                                                "parentStyle": "Table Paragraph"
+                                            },
+                                            "contents": [
+                                                {
+                                                    "type": "span",
+                                                    "text": "Company / Clinic / Hospital Name:",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        230.5,
+                                        94.95,
+                                        568,
+                                        123.05
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 1,
+                                    "rowStart": 1,
+                                    "colStart": 2,
+                                    "contents": []
+                                }
+                            ],
+                            "rect": [
+                                48,
+                                94.95,
+                                570,
+                                123.05
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "tds": [
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        48,
+                                        123.05,
+                                        230.5,
+                                        150.05
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 2,
+                                    "rowStart": 2,
+                                    "colStart": 0,
+                                    "contents": [
+                                        {
+                                            "type": "paragraph",
+                                            "rect": [
+                                                52.5,
+                                                132.42,
+                                                172.27,
+                                                143.42
+                                            ],
+                                            "textStyle": {
+                                                "italic": false,
+                                                "underline": false,
+                                                "pointSize": 11,
+                                                "fontFace": "Calibri",
+                                                "parentStyle": "Table Paragraph"
+                                            },
+                                            "contents": [
+                                                {
+                                                    "type": "span",
+                                                    "text": "Department / Ward Name:",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        230.5,
+                                        123.05,
+                                        568,
+                                        150.05
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 1,
+                                    "rowStart": 2,
+                                    "colStart": 2,
+                                    "contents": []
+                                }
+                            ],
+                            "rect": [
+                                48,
+                                123.05,
+                                570,
+                                150.05
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "tds": [
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        48,
+                                        150.05,
+                                        230.5,
+                                        177.05
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 2,
+                                    "rowStart": 3,
+                                    "colStart": 0,
+                                    "contents": [
+                                        {
+                                            "type": "paragraph",
+                                            "rect": [
+                                                52.5,
+                                                159.66,
+                                                91.11,
+                                                170.66
+                                            ],
+                                            "textStyle": {
+                                                "italic": false,
+                                                "underline": false,
+                                                "pointSize": 11,
+                                                "fontFace": "Calibri",
+                                                "parentStyle": "Table Paragraph"
+                                            },
+                                            "contents": [
+                                                {
+                                                    "type": "span",
+                                                    "text": "Address:",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        230.5,
+                                        150.05,
+                                        568,
+                                        177.05
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 1,
+                                    "rowStart": 3,
+                                    "colStart": 2,
+                                    "contents": []
+                                }
+                            ],
+                            "rect": [
+                                48,
+                                150.05,
+                                570,
+                                177.05
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "tds": [
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        48,
+                                        177.05,
+                                        230.5,
+                                        204
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 2,
+                                    "rowStart": 4,
+                                    "colStart": 0,
+                                    "contents": [
+                                        {
+                                            "type": "paragraph",
+                                            "rect": [
+                                                52.5,
+                                                186.9,
+                                                99.17,
+                                                197.9
+                                            ],
+                                            "textStyle": {
+                                                "italic": false,
+                                                "underline": false,
+                                                "pointSize": 11,
+                                                "fontFace": "Calibri",
+                                                "parentStyle": "Table Paragraph"
+                                            },
+                                            "contents": [
+                                                {
+                                                    "type": "span",
+                                                    "text": "Address 2:",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        230.5,
+                                        177.05,
+                                        568,
+                                        204
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 1,
+                                    "rowStart": 4,
+                                    "colStart": 2,
+                                    "contents": []
+                                }
+                            ],
+                            "rect": [
+                                48,
+                                177.05,
+                                570,
+                                204
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "tds": [
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        48,
+                                        204,
+                                        230.5,
+                                        231.95
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 2,
+                                    "rowStart": 5,
+                                    "colStart": 0,
+                                    "contents": [
+                                        {
+                                            "type": "paragraph",
+                                            "rect": [
+                                                52.5,
+                                                214.14,
+                                                100.5,
+                                                225.14
+                                            ],
+                                            "textStyle": {
+                                                "italic": false,
+                                                "underline": false,
+                                                "pointSize": 11,
+                                                "fontFace": "Calibri",
+                                                "parentStyle": "Table Paragraph"
+                                            },
+                                            "contents": [
+                                                {
+                                                    "type": "span",
+                                                    "text": "City/Town:",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        230.5,
+                                        204,
+                                        568,
+                                        231.95
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 1,
+                                    "rowStart": 5,
+                                    "colStart": 2,
+                                    "contents": []
+                                }
+                            ],
+                            "rect": [
+                                48,
+                                204,
+                                570,
+                                231.95
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "tds": [
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        48,
+                                        231.95,
+                                        230.5,
+                                        258.95
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 2,
+                                    "rowStart": 6,
+                                    "colStart": 0,
+                                    "contents": [
+                                        {
+                                            "type": "paragraph",
+                                            "rect": [
+                                                52.5,
+                                                241.38,
+                                                78.24,
+                                                252.38
+                                            ],
+                                            "textStyle": {
+                                                "italic": false,
+                                                "underline": false,
+                                                "pointSize": 11,
+                                                "fontFace": "Calibri",
+                                                "parentStyle": "Table Paragraph"
+                                            },
+                                            "contents": [
+                                                {
+                                                    "type": "span",
+                                                    "text": "State:",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        230.5,
+                                        231.95,
+                                        568,
+                                        258.95
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 1,
+                                    "rowStart": 6,
+                                    "colStart": 2,
+                                    "contents": []
+                                }
+                            ],
+                            "rect": [
+                                48,
+                                231.95,
+                                570,
+                                258.95
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "tds": [
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        48,
+                                        258.95,
+                                        230.5,
+                                        285.8
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 2,
+                                    "rowStart": 7,
+                                    "colStart": 0,
+                                    "contents": [
+                                        {
+                                            "type": "paragraph",
+                                            "rect": [
+                                                52.5,
+                                                268.62,
+                                                94.43,
+                                                279.62
+                                            ],
+                                            "textStyle": {
+                                                "italic": false,
+                                                "underline": false,
+                                                "pointSize": 11,
+                                                "fontFace": "Calibri",
+                                                "parentStyle": "Table Paragraph"
+                                            },
+                                            "contents": [
+                                                {
+                                                    "type": "span",
+                                                    "text": "ZIP Code:",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        230.5,
+                                        258.95,
+                                        568,
+                                        285.8
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 1,
+                                    "rowStart": 7,
+                                    "colStart": 2,
+                                    "contents": []
+                                }
+                            ],
+                            "rect": [
+                                48,
+                                258.95,
+                                570,
+                                285.8
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "tds": [
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        48,
+                                        285.8,
+                                        568,
+                                        309.8
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 3,
+                                    "rowStart": 8,
+                                    "colStart": 0,
+                                    "contents": [
+                                        {
+                                            "type": "paragraph",
+                                            "rect": [
+                                                52.5,
+                                                294.24,
+                                                239.02,
+                                                305.24
+                                            ],
+                                            "textStyle": {
+                                                "italic": false,
+                                                "underline": false,
+                                                "pointSize": 11,
+                                                "fontFace": "Calibri",
+                                                "parentStyle": "Table Paragraph"
+                                            },
+                                            "contents": [
+                                                {
+                                                    "type": "span",
+                                                    "text": "PRINCIPAL INVESTIGATOR INFORMATION",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 700,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "rect": [
+                                48,
+                                285.8,
+                                570,
+                                309.8
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "tds": [
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        48,
+                                        309.8,
+                                        225.5,
+                                        336.9
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 1,
+                                    "rowStart": 9,
+                                    "colStart": 0,
+                                    "contents": [
+                                        {
+                                            "type": "paragraph",
+                                            "rect": [
+                                                52.5,
+                                                319.86,
+                                                141.82,
+                                                330.86
+                                            ],
+                                            "textStyle": {
+                                                "italic": false,
+                                                "underline": false,
+                                                "pointSize": 11,
+                                                "fontFace": "Calibri",
+                                                "parentStyle": "Table Paragraph"
+                                            },
+                                            "contents": [
+                                                {
+                                                    "type": "span",
+                                                    "text": "First and Last name:",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        225.5,
+                                        309.8,
+                                        568,
+                                        336.9
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 2,
+                                    "rowStart": 9,
+                                    "colStart": 1,
+                                    "contents": []
+                                }
+                            ],
+                            "rect": [
+                                48,
+                                309.8,
+                                570,
+                                336.9
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "tds": [
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        48,
+                                        336.9,
+                                        225.5,
+                                        364.85
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 1,
+                                    "rowStart": 10,
+                                    "colStart": 0,
+                                    "contents": [
+                                        {
+                                            "type": "paragraph",
+                                            "rect": [
+                                                52.5,
+                                                347.1,
+                                                179.37,
+                                                358.1
+                                            ],
+                                            "textStyle": {
+                                                "italic": false,
+                                                "underline": false,
+                                                "pointSize": 11,
+                                                "fontFace": "Calibri",
+                                                "parentStyle": "Table Paragraph"
+                                            },
+                                            "contents": [
+                                                {
+                                                    "type": "span",
+                                                    "text": "Best contact phone number:",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        225.5,
+                                        336.9,
+                                        568,
+                                        364.85
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 2,
+                                    "rowStart": 10,
+                                    "colStart": 1,
+                                    "contents": []
+                                }
+                            ],
+                            "rect": [
+                                48,
+                                336.9,
+                                570,
+                                364.85
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "tds": [
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        48,
+                                        364.85,
+                                        225.5,
+                                        391.85
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 1,
+                                    "rowStart": 11,
+                                    "colStart": 0,
+                                    "contents": [
+                                        {
+                                            "type": "paragraph",
+                                            "rect": [
+                                                52.5,
+                                                374.34,
+                                                116.96,
+                                                385.34
+                                            ],
+                                            "textStyle": {
+                                                "italic": false,
+                                                "underline": false,
+                                                "pointSize": 11,
+                                                "fontFace": "Calibri",
+                                                "parentStyle": "Table Paragraph"
+                                            },
+                                            "contents": [
+                                                {
+                                                    "type": "span",
+                                                    "text": "Email address:",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        225.5,
+                                        364.85,
+                                        568,
+                                        391.85
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 2,
+                                    "rowStart": 11,
+                                    "colStart": 1,
+                                    "contents": []
+                                }
+                            ],
+                            "rect": [
+                                48,
+                                364.85,
+                                570,
+                                391.85
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "tds": [
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        48,
+                                        391.85,
+                                        225.5,
+                                        418.85
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 1,
+                                    "rowStart": 12,
+                                    "colStart": 0,
+                                    "contents": [
+                                        {
+                                            "type": "paragraph",
+                                            "rect": [
+                                                52.5,
+                                                401.59,
+                                                182.49,
+                                                412.59
+                                            ],
+                                            "textStyle": {
+                                                "italic": false,
+                                                "underline": false,
+                                                "pointSize": 11,
+                                                "fontFace": "Calibri",
+                                                "parentStyle": "Table Paragraph"
+                                            },
+                                            "contents": [
+                                                {
+                                                    "type": "span",
+                                                    "text": "Preferred method of contact:",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        225.5,
+                                        391.85,
+                                        568,
+                                        418.85
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 2,
+                                    "rowStart": 12,
+                                    "colStart": 1,
+                                    "contents": [
+                                        {
+                                            "type": "paragraph",
+                                            "rect": [
+                                                230.25,
+                                                400.38,
+                                                345.67,
+                                                412.59
+                                            ],
+                                            "textStyle": {
+                                                "italic": false,
+                                                "underline": false,
+                                                "pointSize": 11,
+                                                "fontFace": "Calibri",
+                                                "parentStyle": "Table Paragraph"
+                                            },
+                                            "contents": [
+                                                {
+                                                    "type": "span",
+                                                    "text": "\u2612 ",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "MS PGothic"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "span",
+                                                    "text": "email\t",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "span",
+                                                    "text": "\u2610 ",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "MS PGothic"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "span",
+                                                    "text": "phone",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "rect": [
+                                48,
+                                391.85,
+                                570,
+                                418.85
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "tds": [
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        48,
+                                        418.85,
+                                        225.5,
+                                        489.85
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 1,
+                                    "rowStart": 13,
+                                    "colStart": 0,
+                                    "contents": [
+                                        {
+                                            "type": "paragraph",
+                                            "rect": [
+                                                52.5,
+                                                428.83,
+                                                214.36,
+                                                483.3
+                                            ],
+                                            "textStyle": {
+                                                "italic": false,
+                                                "underline": false,
+                                                "pointSize": 11,
+                                                "fontFace": "Calibri",
+                                                "parentStyle": "Table Paragraph"
+                                            },
+                                            "contents": [
+                                                {
+                                                    "type": "span",
+                                                    "text": "Does your site use satellite sites and do you expect these satellite sites to be opened to enrollment on this study?",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        225.5,
+                                        418.85,
+                                        568,
+                                        489.85
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 2,
+                                    "rowStart": 13,
+                                    "colStart": 1,
+                                    "contents": [
+                                        {
+                                            "type": "list",
+                                            "rect": [
+                                                230.25,
+                                                446.36,
+                                                295.37,
+                                                458.56
+                                            ],
+                                            "items": [
+                                                {
+                                                    "label": {
+                                                        "rect": [
+                                                            230.25,
+                                                            446.36,
+                                                            241.25,
+                                                            457.36
+                                                        ],
+                                                        "text": "\u2610",
+                                                        "textStyle": {
+                                                            "bold": false,
+                                                            "weight": 400,
+                                                            "italic": false,
+                                                            "underline": false,
+                                                            "pointSize": 11,
+                                                            "fontFace": "MS PGothic"
+                                                        }
+                                                    },
+                                                    "body": {
+                                                        "contents": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "rect": [
+                                                                    230.25,
+                                                                    446.36,
+                                                                    295.37,
+                                                                    458.56
+                                                                ],
+                                                                "textStyle": {
+                                                                    "italic": false,
+                                                                    "underline": false,
+                                                                    "pointSize": 11,
+                                                                    "fontFace": "Calibri",
+                                                                    "parentStyle": "Table Paragraph"
+                                                                },
+                                                                "contents": [
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Yes ",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "\u2612 ",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "MS PGothic"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "No",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "rect": [
+                                                            246.47,
+                                                            446.36,
+                                                            295.37,
+                                                            458.56
+                                                        ]
+                                                    },
+                                                    "rect": [
+                                                        246.47,
+                                                        446.36,
+                                                        295.37,
+                                                        458.56
+                                                    ],
+                                                    "type": "listItem"
+                                                }
+                                            ],
+                                            "labelFormat": "\u2610",
+                                            "level": 0,
+                                            "listId": 1,
+                                            "numberFormat": "none",
+                                            "startValue": 0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "rect": [
+                                48,
+                                418.85,
+                                570,
+                                489.85
+                            ]
+                        },
+                        {
+                            "type": "tr",
+                            "tds": [
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        48,
+                                        489.85,
+                                        225.5,
+                                        649.8
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 1,
+                                    "rowStart": 14,
+                                    "colStart": 0,
+                                    "contents": [
+                                        {
+                                            "type": "paragraph",
+                                            "rect": [
+                                                52.5,
+                                                565.99,
+                                                175.17,
+                                                576.99
+                                            ],
+                                            "textStyle": {
+                                                "italic": false,
+                                                "underline": false,
+                                                "pointSize": 11,
+                                                "fontFace": "Calibri",
+                                                "parentStyle": "Table Paragraph"
+                                            },
+                                            "contents": [
+                                                {
+                                                    "type": "span",
+                                                    "text": "Primary specialty/discipline",
+                                                    "style": {
+                                                        "bold": false,
+                                                        "weight": 400,
+                                                        "italic": false,
+                                                        "underline": false,
+                                                        "pointSize": 11,
+                                                        "fontFace": "Calibri"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "td",
+                                    "rect": [
+                                        225.5,
+                                        489.85,
+                                        568,
+                                        649.8
+                                    ],
+                                    "rowSpan": 1,
+                                    "colSpan": 2,
+                                    "rowStart": 14,
+                                    "colStart": 1,
+                                    "contents": [
+                                        {
+                                            "type": "list",
+                                            "rect": [
+                                                230.25,
+                                                492.34,
+                                                563.39,
+                                                649.45
+                                            ],
+                                            "items": [
+                                                {
+                                                    "label": {
+                                                        "rect": [
+                                                            230.25,
+                                                            492.34,
+                                                            241.25,
+                                                            503.34
+                                                        ],
+                                                        "text": "\u2610",
+                                                        "textStyle": {
+                                                            "italic": false,
+                                                            "underline": false,
+                                                            "pointSize": 11,
+                                                            "fontFace": "MS PGothic"
+                                                        }
+                                                    },
+                                                    "body": {
+                                                        "contents": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "rect": [
+                                                                    230.25,
+                                                                    492.34,
+                                                                    376.19,
+                                                                    504.54
+                                                                ],
+                                                                "textStyle": {
+                                                                    "italic": false,
+                                                                    "underline": false,
+                                                                    "pointSize": 11,
+                                                                    "fontFace": "Calibri",
+                                                                    "parentStyle": "Table Paragraph"
+                                                                },
+                                                                "contents": [
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Cardiology/Vascular Diseases",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "rect": [
+                                                            246.47,
+                                                            493.54,
+                                                            376.19,
+                                                            504.54
+                                                        ]
+                                                    },
+                                                    "rect": [
+                                                        246.47,
+                                                        493.54,
+                                                        376.19,
+                                                        504.54
+                                                    ],
+                                                    "type": "listItem"
+                                                },
+                                                {
+                                                    "label": {
+                                                        "rect": [
+                                                            230.25,
+                                                            506.83,
+                                                            241.25,
+                                                            517.83
+                                                        ],
+                                                        "text": "\u2610",
+                                                        "textStyle": {
+                                                            "italic": false,
+                                                            "underline": false,
+                                                            "pointSize": 11,
+                                                            "fontFace": "MS PGothic"
+                                                        }
+                                                    },
+                                                    "body": {
+                                                        "contents": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "rect": [
+                                                                    230.25,
+                                                                    502.58,
+                                                                    460.85,
+                                                                    519.03
+                                                                ],
+                                                                "textStyle": {
+                                                                    "italic": false,
+                                                                    "underline": false,
+                                                                    "pointSize": 11,
+                                                                    "fontFace": "Calibri",
+                                                                    "parentStyle": "Table Paragraph"
+                                                                },
+                                                                "contents": [
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Dental/Maxillofacial Surgery\t",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "\u2612 ",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "MS PGothic"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Oncology",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "rect": [
+                                                            246.47,
+                                                            502.58,
+                                                            460.85,
+                                                            519.03
+                                                        ]
+                                                    },
+                                                    "rect": [
+                                                        246.47,
+                                                        502.58,
+                                                        460.85,
+                                                        519.03
+                                                    ],
+                                                    "type": "listItem"
+                                                },
+                                                {
+                                                    "label": {
+                                                        "rect": [
+                                                            230.25,
+                                                            521.32,
+                                                            241.25,
+                                                            532.32
+                                                        ],
+                                                        "text": "\u2610",
+                                                        "textStyle": {
+                                                            "italic": false,
+                                                            "underline": false,
+                                                            "pointSize": 11,
+                                                            "fontFace": "MS PGothic"
+                                                        }
+                                                    },
+                                                    "body": {
+                                                        "contents": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "rect": [
+                                                                    230.25,
+                                                                    517.07,
+                                                                    487.99,
+                                                                    533.52
+                                                                ],
+                                                                "textStyle": {
+                                                                    "italic": false,
+                                                                    "underline": false,
+                                                                    "pointSize": 11,
+                                                                    "fontFace": "Calibri",
+                                                                    "parentStyle": "Table Paragraph"
+                                                                },
+                                                                "contents": [
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Dermatology/Plastic Surgery\t",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "\u2610 ",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "MS PGothic"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Ophthalmology",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "rect": [
+                                                            246.47,
+                                                            517.07,
+                                                            487.99,
+                                                            533.52
+                                                        ]
+                                                    },
+                                                    "rect": [
+                                                        246.47,
+                                                        517.07,
+                                                        487.99,
+                                                        533.52
+                                                    ],
+                                                    "type": "listItem"
+                                                },
+                                                {
+                                                    "label": {
+                                                        "rect": [
+                                                            230.25,
+                                                            535.81,
+                                                            241.25,
+                                                            546.81
+                                                        ],
+                                                        "text": "\u2610",
+                                                        "textStyle": {
+                                                            "italic": false,
+                                                            "underline": false,
+                                                            "pointSize": 11,
+                                                            "fontFace": "MS PGothic"
+                                                        }
+                                                    },
+                                                    "body": {
+                                                        "contents": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "rect": [
+                                                                    230.25,
+                                                                    531.56,
+                                                                    487.41,
+                                                                    548.01
+                                                                ],
+                                                                "textStyle": {
+                                                                    "italic": false,
+                                                                    "underline": false,
+                                                                    "pointSize": 11,
+                                                                    "fontFace": "Calibri",
+                                                                    "parentStyle": "Table Paragraph"
+                                                                },
+                                                                "contents": [
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Endocrinology\t",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "\u2610 ",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "MS PGothic"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Otolaryngology",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "rect": [
+                                                            246.47,
+                                                            531.56,
+                                                            487.41,
+                                                            548.01
+                                                        ]
+                                                    },
+                                                    "rect": [
+                                                        246.47,
+                                                        531.56,
+                                                        487.41,
+                                                        548.01
+                                                    ],
+                                                    "type": "listItem"
+                                                },
+                                                {
+                                                    "label": {
+                                                        "rect": [
+                                                            230.25,
+                                                            550.3,
+                                                            241.25,
+                                                            561.3
+                                                        ],
+                                                        "text": "\u2610",
+                                                        "textStyle": {
+                                                            "italic": false,
+                                                            "underline": false,
+                                                            "pointSize": 11,
+                                                            "fontFace": "MS PGothic"
+                                                        }
+                                                    },
+                                                    "body": {
+                                                        "contents": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "rect": [
+                                                                    230.25,
+                                                                    546.05,
+                                                                    523.73,
+                                                                    562.5
+                                                                ],
+                                                                "textStyle": {
+                                                                    "italic": false,
+                                                                    "underline": false,
+                                                                    "pointSize": 11,
+                                                                    "fontFace": "Calibri",
+                                                                    "parentStyle": "Table Paragraph"
+                                                                },
+                                                                "contents": [
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Gastroenterology\t",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "\u2610 ",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "MS PGothic"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Pediatrics/Neonatology",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "rect": [
+                                                            246.47,
+                                                            546.05,
+                                                            523.73,
+                                                            562.5
+                                                        ]
+                                                    },
+                                                    "rect": [
+                                                        246.47,
+                                                        546.05,
+                                                        523.73,
+                                                        562.5
+                                                    ],
+                                                    "type": "listItem"
+                                                },
+                                                {
+                                                    "label": {
+                                                        "rect": [
+                                                            230.25,
+                                                            564.79,
+                                                            241.25,
+                                                            575.79
+                                                        ],
+                                                        "text": "\u2610",
+                                                        "textStyle": {
+                                                            "italic": false,
+                                                            "underline": false,
+                                                            "pointSize": 11,
+                                                            "fontFace": "MS PGothic"
+                                                        }
+                                                    },
+                                                    "body": {
+                                                        "contents": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "rect": [
+                                                                    230.25,
+                                                                    560.54,
+                                                                    532.71,
+                                                                    576.99
+                                                                ],
+                                                                "textStyle": {
+                                                                    "italic": false,
+                                                                    "underline": false,
+                                                                    "pointSize": 11,
+                                                                    "fontFace": "Calibri",
+                                                                    "parentStyle": "Table Paragraph"
+                                                                },
+                                                                "contents": [
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Hematology\t",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "\u2610 ",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "MS PGothic"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Pharmacology/Toxicology",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "rect": [
+                                                            246.47,
+                                                            560.54,
+                                                            532.71,
+                                                            576.99
+                                                        ]
+                                                    },
+                                                    "rect": [
+                                                        246.47,
+                                                        560.54,
+                                                        532.71,
+                                                        576.99
+                                                    ],
+                                                    "type": "listItem"
+                                                },
+                                                {
+                                                    "label": {
+                                                        "rect": [
+                                                            230.25,
+                                                            579.28,
+                                                            241.25,
+                                                            590.28
+                                                        ],
+                                                        "text": "\u2610",
+                                                        "textStyle": {
+                                                            "italic": false,
+                                                            "underline": false,
+                                                            "pointSize": 11,
+                                                            "fontFace": "MS PGothic"
+                                                        }
+                                                    },
+                                                    "body": {
+                                                        "contents": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "rect": [
+                                                                    230.25,
+                                                                    575.04,
+                                                                    517.45,
+                                                                    591.48
+                                                                ],
+                                                                "textStyle": {
+                                                                    "italic": false,
+                                                                    "underline": false,
+                                                                    "pointSize": 11,
+                                                                    "fontFace": "Calibri",
+                                                                    "parentStyle": "Table Paragraph"
+                                                                },
+                                                                "contents": [
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Immunology/Infectious Diseases\t",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "\u2610 ",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "MS PGothic"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Psychiatry/Psychology",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "rect": [
+                                                            246.47,
+                                                            575.04,
+                                                            517.45,
+                                                            591.48
+                                                        ]
+                                                    },
+                                                    "rect": [
+                                                        246.47,
+                                                        575.04,
+                                                        517.45,
+                                                        591.48
+                                                    ],
+                                                    "type": "listItem"
+                                                },
+                                                {
+                                                    "label": {
+                                                        "rect": [
+                                                            230.25,
+                                                            593.77,
+                                                            241.25,
+                                                            604.77
+                                                        ],
+                                                        "text": "\u2610",
+                                                        "textStyle": {
+                                                            "italic": false,
+                                                            "underline": false,
+                                                            "pointSize": 11,
+                                                            "fontFace": "MS PGothic"
+                                                        }
+                                                    },
+                                                    "body": {
+                                                        "contents": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "rect": [
+                                                                    230.25,
+                                                                    589.53,
+                                                                    563.39,
+                                                                    605.97
+                                                                ],
+                                                                "textStyle": {
+                                                                    "italic": false,
+                                                                    "underline": false,
+                                                                    "pointSize": 11,
+                                                                    "fontFace": "Calibri",
+                                                                    "parentStyle": "Table Paragraph"
+                                                                },
+                                                                "contents": [
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Musculoskeletal\t",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "\u2610 ",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "MS PGothic"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Pulmonary/Respiratory Diseases",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "rect": [
+                                                            246.47,
+                                                            589.53,
+                                                            563.39,
+                                                            605.97
+                                                        ]
+                                                    },
+                                                    "rect": [
+                                                        246.47,
+                                                        589.53,
+                                                        563.39,
+                                                        605.97
+                                                    ],
+                                                    "type": "listItem"
+                                                },
+                                                {
+                                                    "label": {
+                                                        "rect": [
+                                                            230.25,
+                                                            608.26,
+                                                            241.25,
+                                                            619.26
+                                                        ],
+                                                        "text": "\u2610",
+                                                        "textStyle": {
+                                                            "italic": false,
+                                                            "underline": false,
+                                                            "pointSize": 11,
+                                                            "fontFace": "MS PGothic"
+                                                        }
+                                                    },
+                                                    "body": {
+                                                        "contents": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "rect": [
+                                                                    230.25,
+                                                                    604.02,
+                                                                    483.75,
+                                                                    620.47
+                                                                ],
+                                                                "textStyle": {
+                                                                    "italic": false,
+                                                                    "underline": false,
+                                                                    "pointSize": 11,
+                                                                    "fontFace": "Calibri",
+                                                                    "parentStyle": "Table Paragraph"
+                                                                },
+                                                                "contents": [
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Nephrology/Urology\t",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "\u2610 ",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "MS PGothic"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Rheumatology",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "rect": [
+                                                            246.47,
+                                                            604.02,
+                                                            483.75,
+                                                            620.47
+                                                        ]
+                                                    },
+                                                    "rect": [
+                                                        246.47,
+                                                        604.02,
+                                                        483.75,
+                                                        620.47
+                                                    ],
+                                                    "type": "listItem"
+                                                },
+                                                {
+                                                    "label": {
+                                                        "rect": [
+                                                            230.25,
+                                                            622.75,
+                                                            241.25,
+                                                            633.75
+                                                        ],
+                                                        "text": "\u2610",
+                                                        "textStyle": {
+                                                            "italic": false,
+                                                            "underline": false,
+                                                            "pointSize": 11,
+                                                            "fontFace": "MS PGothic"
+                                                        }
+                                                    },
+                                                    "body": {
+                                                        "contents": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "rect": [
+                                                                    230.25,
+                                                                    618.51,
+                                                                    549.9,
+                                                                    634.96
+                                                                ],
+                                                                "textStyle": {
+                                                                    "italic": false,
+                                                                    "underline": false,
+                                                                    "pointSize": 11,
+                                                                    "fontFace": "Calibri",
+                                                                    "parentStyle": "Table Paragraph"
+                                                                },
+                                                                "contents": [
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Neurology\t",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "\u2610 ",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "MS PGothic"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Trauma/Emergency Medicine",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "rect": [
+                                                            246.47,
+                                                            618.51,
+                                                            549.9,
+                                                            634.96
+                                                        ]
+                                                    },
+                                                    "rect": [
+                                                        246.47,
+                                                        618.51,
+                                                        549.9,
+                                                        634.96
+                                                    ],
+                                                    "type": "listItem"
+                                                },
+                                                {
+                                                    "label": {
+                                                        "rect": [
+                                                            230.25,
+                                                            637.24,
+                                                            241.25,
+                                                            648.24
+                                                        ],
+                                                        "text": "\u2610",
+                                                        "textStyle": {
+                                                            "italic": false,
+                                                            "underline": false,
+                                                            "pointSize": 11,
+                                                            "fontFace": "MS PGothic"
+                                                        }
+                                                    },
+                                                    "body": {
+                                                        "contents": [
+                                                            {
+                                                                "type": "paragraph",
+                                                                "rect": [
+                                                                    230.25,
+                                                                    633,
+                                                                    447.95,
+                                                                    649.45
+                                                                ],
+                                                                "textStyle": {
+                                                                    "italic": false,
+                                                                    "underline": false,
+                                                                    "pointSize": 11,
+                                                                    "fontFace": "Calibri",
+                                                                    "parentStyle": "Table Paragraph"
+                                                                },
+                                                                "contents": [
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Obstetrics/Gynecology\t",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "\u2610 ",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "MS PGothic"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "type": "span",
+                                                                        "text": "Other:",
+                                                                        "style": {
+                                                                            "bold": false,
+                                                                            "weight": 400,
+                                                                            "italic": false,
+                                                                            "underline": false,
+                                                                            "pointSize": 11,
+                                                                            "fontFace": "Calibri"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "rect": [
+                                                            246.47,
+                                                            633,
+                                                            447.95,
+                                                            649.45
+                                                        ]
+                                                    },
+                                                    "rect": [
+                                                        246.47,
+                                                        633,
+                                                        447.95,
+                                                        649.45
+                                                    ],
+                                                    "type": "listItem"
+                                                }
+                                            ],
+                                            "labelFormat": "\u2610",
+                                            "level": 0,
+                                            "listId": 2,
+                                            "numberFormat": "none",
+                                            "startValue": 0
+                                        }
+                                    ]
+                                }
+                            ],
+                            "rect": [
+                                48,
+                                489.85,
+                                570,
+                                649.8
+                            ]
+                        }
+                    ],
+                    "columnWidths": [
+                        177.5,
+                        5,
+                        337.5
+                    ]
+                }
+            ]
+        },
+        {
+            "properties": {
+                "pageNumber": 2,
+                "rotation": 0
+            },
+            "elements": [
+                {
+                    "type": "paragraph",
+                    "rect": [
+                        36,
+                        36.86,
+                        242.02,
+                        49.75
+                    ],
+                    "textStyle": {
+                        "italic": false,
+                        "underline": false,
+                        "pointSize": 11,
+                        "fontFace": "Arial",
+                        "parentStyle": "Body Text"
+                    },
+                    "contents": [
+                        {
+                            "type": "span",
+                            "text": "Apryse Data Extraction Module trial mode.",
+                            "style": {
+                                "bold": false,
+                                "weight": 400,
+                                "italic": false,
+                                "underline": false,
+                                "pointSize": 11,
+                                "fontFace": "Arial"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "rect": [
+                        36,
+                        56.86,
+                        446.83,
+                        69.75
+                    ],
+                    "textStyle": {
+                        "italic": false,
+                        "underline": false,
+                        "pointSize": 11,
+                        "fontFace": "Arial",
+                        "parentStyle": "Body Text"
+                    },
+                    "contents": [
+                        {
+                            "type": "span",
+                            "text": "The trial is limited to 6 pages and will insert extra pages into the result (like this one).",
+                            "style": {
+                                "bold": false,
+                                "weight": 400,
+                                "italic": false,
+                                "underline": false,
+                                "pointSize": 11,
+                                "fontFace": "Arial"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

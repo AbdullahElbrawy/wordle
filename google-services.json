@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "491832805814",
+    "project_id": "a1-gfmo",
+    "storage_bucket": "a1-gfmo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491832805814:android:28805b7fb5194b0ce91917",
+        "android_client_info": {
+          "package_name": "com.oversoft.woGame"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDNMgVBBeS79U5V_GhQn6W5eIEv_Kp8pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
