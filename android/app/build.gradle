@@ -71,15 +71,14 @@ def jscFlavor = 'org.webkit:android-jsc:+'
 
 android {
     ndkVersion rootProject.ext.ndkVersion
-
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    compileSdk rootProject.ext.compileSdkVersion
 
     namespace "com.woodlegame"
     defaultConfig {
         applicationId "com.woodlegame"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        compileSdkVersion = rootProject.ext.compileSdkVersion
-
         versionCode 1
         versionName "1.0"
     }
@@ -107,23 +106,13 @@ android {
 
 dependencies {
     // The version of react-native is set by the React Native Gradle Plugin
-     debugImplementation 'com.facebook.flipper:flipper:0.125.0'
-    debugImplementation 'com.facebook.flipper:flipper-network-plugin:0.125.0'
-    debugImplementation 'com.facebook.flipper:flipper-fresco-plugin:0.125.0'
-    debugImplementation 'com.facebook.soloader:soloader:0.10.1'
-    releaseImplementation 'com.facebook.flipper:flipper-noop:0.125.0'
+    implementation("com.facebook.react:react-android")
+
     if (hermesEnabled.toBoolean()) {
         implementation("com.facebook.react:hermes-android")
     } else {
         implementation jscFlavor
     }
 }
-// Enable Flipper only in debug builds
-if (project.hasProperty("flipperEnabled") && project.flipperEnabled.toBoolean()) {
-    debugImplementation("com.facebook.flipper:flipper:0.256.0") {
-        exclude group:'com.facebook.fbjni'
-    }
-    debugImplementation 'com.facebook.soloader:soloader:0.10.5'
-    releaseImplementation("com.facebook.flipper:flipper-noop:0.256.0")
-}
+
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
