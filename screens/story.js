@@ -9,7 +9,7 @@ export default function StoryScreen() {
   const [input, setInput] = useState('');
 
   useEffect(() => {
-    axios.get(`http://192.168.1.4:3000/story?id=1&part=${part}`)
+    axios.get(`https://wordle-nine-gamma.vercel.app/story?id=1&part=${part}`)
       .then(response => setStory(response.data))
       .catch(error => console.error(error));
   }, [part]);

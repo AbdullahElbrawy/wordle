@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, TextInput, TouchableOpacity, FlatList, Alert, StyleSheet, Modal, ScrollView } from 'react-native';
-import io from 'socket.io-client';
-import { Picker } from '@react-native-picker/picker';
+import { View, Text, TextInput, TouchableOpacity, FlatList, Alert, StyleSheet, ScrollView } from 'react-native';
+import axios from 'axios';
 import { useSettings } from '../settingsContext';
-import CustomKeyboard from './keyboard'; // Ensure you have a CustomKeyboard component
-
-const socket = io('http://192.168.1.4:3000');
+import CustomKeyboard from './keyboard';
 
 const colors = [
   '#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6', 
@@ -18,127 +15,184 @@ const colors = [
 
 export default function GameScreen() {
   const { language, difficulty, wordPack } = useSettings();
-  const [playerCount, setPlayerCount] = useState(2);
-  const [players, setPlayers] = useState([]);
+  const [player, setPlayer] = useState({
+    id: 1,
+    name: 'Player',
+    word: '',
+    guess: '',
+    attempts: [],
+    wordDetails: {},
+    showModal: false,
+    score: 0,
+    startTime: null,
+    color: colors[Math.floor(Math.random() * colors.length)]
+  });
   const [isPlayerSetup, setIsPlayerSetup] = useState(false);
-  const [gameMode, setGameMode] = useState('endless'); // Default game mode
-  const [gameState, setGameState] = useState({});
 
   useEffect(() => {
-    socket.on('gameUpdate', (game) => {
-      setGameState(game);
-    });
-
-    return () => {
-      socket.off('gameUpdate');
-    };
+    axios.get(`https://wordle-nine-gamma.vercel.app/word?lang=${language}&difficulty=${difficulty}&pack=${wordPack}`)
+      .then(response => {
+        setPlayer({ ...player, word: response.data.word });
+      })
+      .catch(error => console.error(error));
   }, []);
 
-  useEffect(() => {
-    if (isPlayerSetup) {
-      socket.emit('joinGame', {
-        username: `Player ${socket.id}`,
-        lang: language,
-        difficulty: difficulty,
-      });
-    }
-  }, [isPlayerSetup, language, difficulty]);
-
-  const handleStartGame = () => {
-    setIsPlayerSetup(true);
-  };
-
-  const handleGuess = (playerId) => {
-    const player = players.find(p => p.id === playerId);
-    if (player.guess.length !== gameState.word.length) {
-      Alert.alert('Invalid Guess', `Your guess must be ${gameState.word.length} letters long.`);
+  const handleGuess = () => {
+    if (!player.word || player.guess.length !== player.word.length) {
+      Alert.alert('Invalid Guess', `Your guess must be ${player.word.length} letters long.`);
       return;
     }
 
-    socket.emit('makeGuess', { guess: player.guess, lang: language });
+    const newAttempts = [...player.attempts, player.guess.toUpperCase()];
+    const isCorrect = player.guess.toUpperCase() === player.word;
+    let newScore = player.score;
+    if (isCorrect || newAttempts.length >= 6) {
+      fetchWordDetails();
+      if (isCorrect) {
+        newScore += 10;
+        Alert.alert('Congratulations!', 'You guessed the word!', [
+          { text: 'OK', onPress: () => setPlayer({ ...player, showModal: true, score: newScore }) }
+        ]);
+      } else {
+        Alert.alert('Game Over', `The correct word was: ${player.word}`, [
+          { text: 'OK', onPress: () => setPlayer({ ...player, showModal: true }) }
+        ]);
+      }
+    }
+
+    setPlayer({ ...player, attempts: newAttempts, guess: '', score: newScore });
   };
 
-  const handleKeyPress = (key, playerId) => {
-    setPlayers(players.map(player => player.id === playerId ? { ...player, guess: (player.guess.length < gameState.word.length ? player.guess + key : player.guess) } : player));
+  const fetchWordDetails = () => {
+    axios.get(`https://api.dictionaryapi.dev/api/v2/entries/${language}/${player.word}`)
+      .then(response => {
+        const wordData = response.data[0];
+        const details = {
+          definition: wordData.meanings[0].definitions[0].definition,
+          conjugations: 'Conjugations data',
+          synonyms: wordData.meanings[0].definitions[0].synonyms.join(', '),
+        };
+        setPlayer({ ...player, wordDetails: details });
+      })
+      .catch(error => console.error(error));
+  };
+
+  const renderAttempt = ({ item }) => (
+    <View style={styles.attemptRow} key={item}>
+      {item.split('').map((letter, index) => (
+        <View key={index} style={[
+          styles.letterBox,
+          player.word[index] === letter ? styles.correctLetter : player.word.includes(letter) ? styles.misplacedLetter : styles.incorrectLetter
+        ]}>
+          <Text style={styles.letter}>{letter}</Text>
+        </View>
+      ))}
+    </View>
+  );
+
+  const handleKeyPress = (key) => {
+    setPlayer({ ...player, guess: (player.guess.length < player.word.length ? player.guess + key : player.guess) });
   };
 
   if (!isPlayerSetup) {
     return (
-      <View style={styles.containerIntro}>
+      <ScrollView style={styles.container}>
         <Text style={styles.title}>Wordle Game</Text>
-        <Text style={styles.subtitle}>Select Number of Players</Text>
-        <Picker
-          selectedValue={playerCount}
-          style={styles.picker}
-          onValueChange={(itemValue) => setPlayerCount(itemValue)}
-        >
-          {Array.from({ length: 30 }, (_, i) => i + 2).map(num => (
-            <Picker.Item key={num} label={`${num} Players`} value={num} />
-          ))}
-        </Picker>
-        <Text style={styles.subtitle}>Select Game Mode</Text>
-        <Picker
-          selectedValue={gameMode}
-          style={styles.picker}
-          onValueChange={(itemValue) => setGameMode(itemValue)}
-        >
-          <Picker.Item label="Endless" value="endless" />
-          <Picker.Item label="Timed" value="timed" />
-          <Picker.Item label="Word Sequence Race" value="wordSequenceRace" />
-        </Picker>
-        <TouchableOpacity style={styles.button} onPress={handleStartGame}>
+        <Text style={styles.subtitle}>Enter Username</Text>
+        <TextInput
+          value={player.name}
+          onChangeText={(text) => setPlayer({ ...player, name: text })}
+          placeholder="Username"
+          style={styles.input}
+        />
+        <TouchableOpacity style={styles.button} onPress={() => setIsPlayerSetup(true)}>
           <Text style={styles.buttonText}>Start Game</Text>
         </TouchableOpacity>
-      </View>
+      </ScrollView>
     );
   }
 
   return (
     <ScrollView style={styles.container}>
       <Text style={styles.title}>Wordle Game</Text>
-      <View style={styles.playersContainer}>
-        {Object.keys(gameState.players || {}).map(playerId => {
-          const player = gameState.players[playerId];
-          return (
-            <View key={playerId} style={[styles.playerContainer, { borderColor: colors[playerId % colors.length], borderWidth: 2 }]}>
-              <Text style={[styles.playerTitle, { color: colors[playerId % colors.length] }]}>{player.username}</Text>
-              <FlatList
-                data={player.attempts}
-                renderItem={({ item }) => renderAttempt({ item, player })}
-                keyExtractor={(item, index) => `${playerId}-${index}`}
-                style={styles.attemptsList}
-              />
-              <TextInput
-                value={player.guess}
-                onChangeText={(text) => setPlayers(players.map(p => p.id === playerId ? { ...p, guess: text } : p))}
-                placeholder="Enter your guess"
-                style={styles.input}
-                maxLength={gameState.word.length}
-              />
-              <TouchableOpacity style={styles.button} onPress={() => handleGuess(playerId)}>
-                <Text style={styles.buttonText}>Submit Guess</Text>
-              </TouchableOpacity>
-              <CustomKeyboard onKeyPress={(key) => handleKeyPress(key, playerId)} language={language} />
-            </View>
-          );
-        })}
+      <View style={styles.playerContainer}>
+        <Text style={[styles.playerTitle, { color: player.color }]}>{player.name}</Text>
+        <FlatList
+          data={player.attempts}
+          renderItem={({ item }) => renderAttempt({ item })}
+          keyExtractor={(item, index) => `${player.id}-${index}`}
+          style={styles.attemptsList}
+        />
+        <TextInput
+          value={player.guess}
+          onChangeText={(text) => setPlayer({ ...player, guess: text })}
+          placeholder="Enter your guess"
+          style={styles.input}
+          maxLength={player.word?.length}
+        />
+        <TouchableOpacity style={styles.button} onPress={handleGuess}>
+          <Text style={styles.buttonText}>Submit Guess</Text>
+        </TouchableOpacity>
+        <CustomKeyboard onKeyPress={handleKeyPress} language={language} />
       </View>
     </ScrollView>
   );
 }
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
     backgroundColor: '#000',
-    padding: 20,
   },
   title: {
     fontSize: 32,
     fontWeight: 'bold',
     color: '#FFF',
     marginBottom: 20,
+    textAlign: 'center',
+  },
+  subtitle: {
+    fontSize: 24,
+    color: '#FFF',
+    marginBottom: 20,
+    textAlign: 'center',
+  },
+  input: {
+    height: 40,
+    borderColor: '#ccc',
+    borderWidth: 1,
+    width: '80%',
+    paddingHorizontal: 10,
+    marginBottom: 20,
+    color: '#FFF',
+    alignSelf: 'center',
+  },
+  button: {
+    backgroundColor: '#6200ea',
+    paddingVertical: 15,
+    paddingHorizontal: 30,
+    borderRadius: 25,
+    alignItems: 'center',
+    marginBottom: 20,
+    alignSelf: 'center',
+  },
+  buttonText: {
+    color: '#FFF',
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  playerContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    margin: 10,
+    padding: 10,
+    backgroundColor: '#222',
+    borderRadius: 10,
+  },
+  playerTitle: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 10,
   },
   attemptsList: {
     width: '100%',
@@ -169,62 +223,6 @@ const styles = StyleSheet.create({
   letter: {
     color: '#FFF',
     fontSize: 24,
-    fontWeight: 'bold',
-  },
-  input: {
-    height: 40,
-    borderColor: '#ccc',
-    borderWidth: 1,
-    width: '80%',
-    paddingHorizontal: 10,
-    marginBottom: 20,
-    color: '#FFF',
-  },
-  button: {
-    backgroundColor: '#6aaa64',
-    paddingVertical: 15,
-    paddingHorizontal: 30,
-    borderRadius: 25,
-    alignItems: 'center',
-    marginBottom: 20,
-  },
-  buttonText: {
-    color: '#FFF',
-    fontSize: 16,
-    fontWeight: 'bold',
-  },
-  modalContainer: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: 'rgba(0,0,0,0.5)',
-  },
-  modalContent: {
-    backgroundColor: '#FFF',
-    padding: 20,
-    borderRadius: 10,
-    width: '80%',
-    alignItems: 'center',
-  },
-  modalTitle: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    marginBottom: 10,
-  },
-  modalText: {
-    fontSize: 18,
-    marginBottom: 5,
-  },
-  modalButton: {
-    marginTop: 20,
-    backgroundColor: '#6aaa64',
-    paddingVertical: 10,
-    paddingHorizontal: 20,
-    borderRadius: 5,
-  },
-  modalButtonText: {
-    color: '#FFF',
-    fontSize: 16,
     fontWeight: 'bold',
   },
 });

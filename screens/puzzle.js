@@ -4,7 +4,7 @@ import axios from 'axios';
 import { useSettings } from '../settingsContext'; // Correct the import path for your context
 import io from 'socket.io-client';
 
-const socket = io('http://192.168.1.4:3000'); // Update with your server address
+const socket = io('https://wordle-nine-gamma.vercel.app/'); // Update with your server address
 
 export default function PuzzleScreen() {
   const { language, difficulty, wordPack } = useSettings();
@@ -15,7 +15,7 @@ export default function PuzzleScreen() {
   const [gameOver, setGameOver] = useState(false);
 
   useEffect(() => {
-    axios.get(`http://192.168.1.4:3000/word?lang=${language}&difficulty=${difficulty}&pack=${wordPack}`)
+    axios.get(`https://wordle-nine-gamma.vercel.app/word?lang=${language}&difficulty=${difficulty}&pack=${wordPack}`)
       .then(response => setWord(response.data.word))
       .catch(error => console.error(error));
 

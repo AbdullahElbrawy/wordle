@@ -6,7 +6,7 @@ import io from 'socket.io-client';
 import { useSettings } from '../settingsContext';
 import CustomKeyboard from './keyboard';
 
-const socket = io('http://192.168.1.4:3000');
+const socket = io('https://wordle-nine-gamma.vercel.app/');
 
 const colors = [
   '#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6', 
@@ -50,7 +50,7 @@ export default function GameScreen() {
   }, []);
 
   useEffect(() => {
-    axios.get('http://192.168.1.4:3000/rooms')
+    axios.get('https://wordle-nine-gamma.vercel.app/rooms')
       .then(response => setAvailableRooms(response.data))
       .catch(error => console.error(error));
   }, []);
@@ -130,7 +130,7 @@ export default function GameScreen() {
           if (isCorrect) {
             newScore += 10;
             if (gameMode === 'wordSequenceRace') {
-              axios.get(`http://192.168.1.4:3000/word?lang=${language}&difficulty=${difficulty}&pack=${wordPack}`)
+              axios.get(`https://wordle-nine-gamma.vercel.app/word?lang=${language}&difficulty=${difficulty}&pack=${wordPack}`)
                 .then(response => {
                   setPlayers(players.map(player => player.id === playerId ? { ...player, word: response.data.word, guess: '', attempts: [], score: newScore } : player));
                 })

@@ -6,7 +6,7 @@ export default function CreatePuzzleScreen() {
   const [puzzle, setPuzzle] = useState('');
 
   const handleSubmit = () => {
-    axios.post('http://192.168.1.4:3000/createPuzzle', { username: 'User', puzzle })
+    axios.post('https://wordle-nine-gamma.vercel.app/createPuzzle', { username: 'User', puzzle })
       .then(response => {
         if (response.data.success) {
           Alert.alert('Puzzle created successfully!');
