@@ -7,7 +7,7 @@ import com.facebook.react.ReactPackage
 import com.facebook.soloader.SoLoader
 import com.facebook.react.PackageList
 
-abstract class MainApplication : Application(), ReactApplication {
+class MainApplication : Application(), ReactApplication {
 
     private val mReactNativeHost: ReactNativeHost = object : ReactNativeHost(this) {
         override fun getUseDeveloperSupport(): Boolean {
@@ -23,9 +23,12 @@ abstract class MainApplication : Application(), ReactApplication {
         }
     }
 
+    override val reactNativeHost: ReactNativeHost
+        get() = mReactNativeHost
 
     override fun onCreate() {
         super.onCreate()
         SoLoader.init(this, false)
     }
 }
+t add
