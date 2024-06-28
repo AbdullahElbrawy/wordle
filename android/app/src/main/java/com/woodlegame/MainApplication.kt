@@ -31,4 +31,3 @@ class MainApplication : Application(), ReactApplication {
         SoLoader.init(this, false)
     }
 }
-t add
